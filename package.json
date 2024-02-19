@@ -1,0 +1,21 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Chat App with rooms",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "Anshuman Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.1.3",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
